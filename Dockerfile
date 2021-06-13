@@ -1,5 +1,5 @@
 FROM ruby:2.3
-LABEL maintainer="nn@mikh.pro"
+LABEL maintainer="nn.mikh@yandex.ru"
 
 RUN curl -sL https://deb.nodesource.com/setup_8.x | bash - && \
 	apt-get update -qq && \
