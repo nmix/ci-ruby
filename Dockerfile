@@ -6,4 +6,4 @@ RUN curl -sL https://deb.nodesource.com/setup_12.x | bash - && \
 	apt-get install -y -qq nodejs libpq-dev postgresql-client cmake pkg-config libssl-dev && \
 	apt-get clean && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
-RUN gem install bundler
+RUN gem install bundler pronto pronto-rubocop pronto-flay
